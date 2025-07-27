@@ -5,12 +5,14 @@ import Login from "../pages/Login.vue";
 import Dashboard from "../pages/Dashboard.vue";
 import Projects from "../pages/Projects.vue";
 import Roles from "../pages/Roles.vue";
+import Users from "../pages/Users.vue";
 
 const routes = [
   { path: "/", name: "Login", component: Login },
   { path: "/dashboard", name: "Dashboard", component: Dashboard },
   { path: "/projects", name: "Projects", component: Projects },
   { path: "/roles", name: "Roles", component: Roles }, // 👈 new
+  { path: '/users', name: 'Users', component: Users } // 👈 new
 ];
 
 const router = createRouter({

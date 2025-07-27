@@ -9,6 +9,7 @@
       >
       <router-link to="/projects" class="hover:underline">Projects</router-link>
       <router-link to="/roles" class="hover:underline">Roles</router-link>
+      <router-link to="/users" class="hover:underline">Users</router-link>
 
       <button
         @click="logout"
